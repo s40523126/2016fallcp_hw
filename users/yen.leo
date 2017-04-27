@@ -52,7 +52,9 @@
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
+<v t="leo.20170428002210.1"><vh>20170428</vh></v>
 <v t="amd.20160106093454.1"><vh>yen 所寫的網誌文章</vh></v>
+<v t="leo.20170428002344.1"><vh>newHeadline</vh></v>
 </v>
 </vnodes>
 <tnodes>
@@ -194,5 +196,26 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20170428002210.1">@language md
+Title: 在Ubuntu16.04中安裝nginx及設定網路
+Category: 網際內容管理
+Tags: 
+Author: 40523126
+安裝完Ubuntu後,需要建立網路,才能夠上網.
+
+首先開啟Ubuntu主機後,輸入:sudo apt update之後
+
+再輸入sudo apt install nginx 建立一個網站
+
+之後輸入ifconfig 會出現ip ,進而去瀏覽器輸入網址
+
+若有出現網址等於成功.
+
+
+&lt;iframe
+ src="https://player.vimeo.com/video/215042647" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215042647"&gt;bandicam 2017-04-28 00-18-34-329&lt;/a&gt; from &lt;a href="https://vimeo.com/user57302706"&gt;James Chang&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
+<t tx="leo.20170428002344.1"></t>
 </tnodes>
 </leo_file>
